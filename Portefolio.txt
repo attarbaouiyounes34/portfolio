@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - ATTARBAOUI Younes</title>
+
+    <!-- Police Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <header class="navbar">
+        <div class="logo">ATTARBAOUI Younes</div>
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#apropos">À propos</a>
+            <a href="#experiences">Parcours</a>
+            <a href="#projets">Projets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- SECTION HERO / ACCUEIL -->
+    <section id="accueil" class="hero">
+        <div class="hero-text">
+            <p class="hero-hello">Salut, moi c'est</p>
+            <h1>ATTARBAOUI Younes</h1>
+            <h2>Étudiant en 1ère année de BUT Réseaux & Télécommunications</h2>
+            <p class="hero-desc">
+                Étudiant à l’IUT de Béziers en BUT Réseaux & Télécoms, 
+                je suis actuellement <strong>en recherche d’alternance</strong> dans les domaines des réseaux,
+                de l’administration système et des télécommunications.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projets" class="btn primary">Voir mes projets</a>
+                <a href="#contact" class="btn secondary">Me contacter</a>
+            </div>
+        </div>
+        <div class="hero-photo">
+            <!-- Remplace ce bloc par une vraie photo si tu veux -->
+            <div class="photo-placeholder">Ta photo ici</div>
+        </div>
+    </section>
+
+    <!-- SECTION A PROPOS -->
+    <section id="apropos" class="section">
+        <h2>À propos</h2>
+        <div class="section-content two-columns">
+            <p>
+                Je suis <strong>étudiant en première année de BUT Réseaux & Télécommunications</strong> à l’IUT de Béziers.  
+                Je m’intéresse particulièrement aux réseaux (TCP/IP, routage, VLAN), aux systèmes (Linux, Windows)
+                et à la cybersécurité.  
+                <br><br>
+                Mon objectif est de développer mes compétences techniques sur le terrain
+                via une <strong>alternance</strong>, tout en apportant de la valeur à l’entreprise qui m’accueillera.
+            </p>
+            <ul class="infos-list">
+                <li><strong>Nom :</strong> ATTARBAOUI Younes</li>
+                <li><strong>Formation :</strong> BUT Réseaux & Télécommunications (1ère année)</li>
+                <li><strong>Établissement :</strong> IUT de Béziers</li>
+                <li><strong>Ville :</strong> Béziers, France</li>
+                <li><strong>Statut :</strong> En recherche d’alternance</li>
+                <li><strong>Email :</strong> ton.mail@exemple.com</li>
+                <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com" target="_blank">Mon profil LinkedIn</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- SECTION PARCOURS / EXPERIENCES -->
+    <section id="experiences" class="section section-alt">
+        <h2>Parcours</h2>
+        <div class="timeline">
+
+            <article class="timeline-item">
+                <h3>BUT Réseaux & Télécommunications</h3>
+                <p class="timeline-date">2024 – Aujourd’hui | IUT de Béziers</p>
+                <p>
+                    • Découverte et mise en pratique des notions fondamentales des réseaux (TCP/IP, routage, VLAN).<br>
+                    • Bases de l’administration système sous Linux et Windows.<br>
+                    • Travaux pratiques en câblage, configuration d’équipements réseau et services de communication.
+                </p>
+                <p class="tags">Réseaux • Linux • Télécoms</p>
+            </article>
+
+            <article class="timeline-item">
+                <h3>Baccalauréat (à compléter)</h3>
+                <p class="timeline-date">Année d’obtention | Nom du lycée</p>
+                <p>
+                    • Mentionne ici ton type de bac (général / technologique / pro) et les spécialités ou options importantes.<br>
+                    • Mets en avant les matières qui te rapprochent de l’informatique, des réseaux ou des sciences.
+                </p>
+                <p class="tags">Bac • Parcours scolaire</p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- SECTION PROJETS -->
+    <section id="projets" class="section">
+        <h2>Projets</h2>
+        <div class="cards">
+
+            <article class="card">
+                <h3>Projet réseau – Mise en place d’un LAN</h3>
+                <p class="card-desc">
+                    (Exemple à adapter) Conception et configuration d’un petit réseau local : adressage IP,
+                    configuration de switchs, VLAN et tests de connectivité entre plusieurs postes.
+                </p>
+                <p class="tags">Réseaux • VLAN • TCP/IP</p>
+            </article>
+
+            <article class="card">
+                <h3>Création d’un site vitrine</h3>
+                <p class="card-desc">
+                    (Exemple à adapter) Réalisation d’un site web simple en HTML/CSS pour présenter un projet ou une activité.
+                    Découverte des bases du développement web.
+                </p>
+                <p class="tags">HTML • CSS</p>
+                <!-- Exemple de lien vers un site externe -->
+                <!-- <a href="https://www.geeksforgeeks.org/" target="_blank" class="card-link">Voir un exemple de ressource</a> -->
+            </article>
+
+            <article class="card">
+                <h3>Initiation à la cybersécurité</h3>
+                <p class="card-desc">
+                    (Exemple à adapter) Découverte de notions de base en sécurité : bonnes pratiques, mots de passe,
+                    sécurisation de postes de travail et sensibilisation aux menaces courantes.
+                </p>
+                <p class="tags">Cybersécurité • Bonnes pratiques</p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- SECTION COMPETENCES -->
+    <section id="competences" class="section section-alt">
+        <h2>Compétences</h2>
+        <div class="skills-grid">
+            <div>
+                <h3>Techniques</h3>
+                <ul>
+                    <li>Bases des réseaux (TCP/IP, routage, VLAN)</li>
+                    <li>Notions d’administration système (Linux / Windows)</li>
+                    <li>HTML / CSS (bases)</li>
+                    <li>Câblage et configuration d’équipements réseau (à compléter selon tes TP)</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Soft skills</h3>
+                <ul>
+                    <li>Motivation et envie d’apprendre</li>
+                    <li>Capacité à travailler en équipe</li>
+                    <li>Rigueur et organisation</li>
+                    <li>Curiosité pour les nouvelles technologies</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p class="contact-text">
+            Intéressé(e) par mon profil pour une alternance en Réseaux & Télécommunications ?  
+            N’hésitez pas à me contacter par mail ou via LinkedIn.
+        </p>
+        <div class="contact-links">
+            <a href="mailto:ton.mail@exemple.com" class="btn primary">M’écrire un mail</a>
+            <a href="https://www.linkedin.com" target="_blank" class="btn secondary">Mon LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- PIED DE PAGE -->
+    <footer class="footer">
+        <p>© 2025 ATTARBAOUI Younes – Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
